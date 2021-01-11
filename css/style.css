@@ -1,0 +1,144 @@
+body {
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+}
+
+code {
+    font-size: 3vh;
+}
+
+br {
+    clear: both;
+}
+
+label {
+    display: block;
+}
+
+label > div, input {
+    float: left;
+    width: 40vw;
+}
+
+
+
+pre {
+    background-color: black;
+    opacity: 0.5;
+    overflow-x: auto;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre;
+    border: solid 1px gray;
+    padding: 0.5em;
+    color: yellow;
+    font-family: "consolas", sans-serif
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+slide-deck img {
+    display: block;
+    max-height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.card {
+    margin: 0.5em;
+    padding: 1.0em;
+    opacity: 0.8;
+    float: left;
+    text-align: center;
+    border: solid 2px darkgreen;
+    background: yellowgreen;
+    width: 18vw;
+    height: 12vh;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.card span {
+    height: 12vh;
+}
+
+
+h1, h2, h3, title {
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 5px crimson;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.appear {
+    display: none;
+}
+
+.footer {
+    float: left;
+    height: 15vh;
+    vertical-align: middle;
+    width: 32vw;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+slide-deck > div {
+    height: 80vh;
+    padding: 1em;
+}
+
+next-slide, transition {
+    display: none;
+}
+
+html {
+    background: url(../images/menu.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 1080px) {
+
+    body,
+    code {
+        font-size: 2vh;
+    }
+
+    button,
+    input {
+        font-size: 2vh;
+    }
+}
